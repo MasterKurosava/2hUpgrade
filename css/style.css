@@ -1,0 +1,404 @@
+.text_light {
+    font-weight: 400;
+}
+
+.block_blue {
+    background-color: #34547A;
+}
+
+.p_white {
+    color: white;
+}
+
+.block_grey {
+    background-color: #EEEFF1;
+}
+
+nav {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.header_logo {
+    background-image: url("../img/WD.png");
+    margin-left: 80px;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    min-width: 100px;
+}
+
+.header_nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+li a {
+    font-size: 1.2em;
+    color: black;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+li a:hover {
+    display: inline-block;
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.writeMe_image {
+    min-width: 270px;
+    max-width: 400px;
+    background-image: url("../img/Frame.png");
+    min-height: 220px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    background-position: center;
+}
+
+.writeMe_text {
+    max-width: 300px;
+    margin: 40px 0 60px 60px;
+    min-width: 300px;
+    font-size: 1.2em;
+}
+
+.btn-primary,
+.btn {
+    font-weight: 400;
+    font-size: 1.1em;
+    width: 220px;
+    height: 60px;
+    background-color: #34547A;
+    border: none;
+    margin-top: 20px;
+    align-self: center;
+
+
+}
+
+header {
+    padding-bottom: 50px;
+}
+
+pre::-webkit-scrollbar {
+    width: 0px;
+}
+
+.section {
+    width: 100%;
+}
+
+.row_1 {
+    display: flex;
+    justify-content: center;
+}
+
+.row_2 div {
+    width: 40%;
+    text-align: center;
+}
+
+.about_me {
+    min-width: 300px;
+    font-size: 1.1em;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    max-width: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.projects {
+    margin-bottom: 80px;
+}
+
+.mySkills_progress {
+    height: 5px;
+    margin-bottom: 20px;
+}
+
+.mySkills {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.howWork {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.howWork_text {
+    font-size: 1.1em;
+    margin: 0 auto 0 auto;
+    margin-bottom: 50px;
+}
+
+.mySkills_face {
+    width: 555px;
+    height: 450px;
+    background-image: url("../img/face.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.mySkills_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.howWork_gallery {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.howWork_perGallery {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.howWork_mark {
+    background-image: url("../img/Rectangle7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50vh;
+    height: 35vh;
+
+}
+
+.howWork_pen {
+
+    background-image: url("../img/laptop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50vh;
+    height: 35vh;
+}
+
+.empty {
+    height: 100px;
+}
+
+.howWork_microsoft {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.howWork_micro {
+    margin: 20px;
+}
+
+.howWork_microsoft div.flex {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex {
+    display: flex;
+}
+
+form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form_nameInput input {
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+}
+
+.form_nameInput {
+    display: flex;
+    justify-content: center;
+}
+
+.form_nameInput input:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.form_message {
+    display: block;
+    margin: auto;
+}
+
+.form_message textarea {
+    padding: 10px;
+    resize: none;
+    width: 630px;
+    height: 150px;
+    border: none;
+}
+
+textarea:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.howWork_video {
+    margin-bottom: 50px;
+}
+
+.howWork_videoo div {
+    display: flex;
+    justify-content: center;
+}
+
+.howWork_video div video {
+    width: 70%;
+}
+
+.form_button {
+    padding: auto;
+    display: block;
+    padding: auto;
+    font-size: 1.3em;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    background-color: #34547A;
+    width: 190px;
+    height: 55px;
+}
+
+.form_button a {
+    display: block;
+    padding: 10px 0px 0px 5px;
+    color: white;
+    text-decoration: none;
+    text-align: none;
+    ;
+}
+
+.form_button a:hover {
+    color: white;
+}
+
+.footer_vk {
+    margin-right: 10px;
+    background-image: url("../img/vk.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto 0 auto 0;
+    min-width: 50px;
+    height: 50px;
+}
+
+.projects_img {
+    background-image: url("../img/project.png");
+    background-repeat: no-repeat;
+    background-size: 2;
+    background-position: left;
+}
+
+.projects_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 10px;
+}
+
+.projects_icon div {
+    padding-left: 40px;
+}
+
+.projects_icon p {
+    line-height: 4px;
+    display: block;
+    margin: 30px;
+}
+
+.form {
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+.form_text {
+    margin: auto;
+}
+
+.header_lent {
+    display: none;
+}
+
+@media (max-width:1000px) {
+    .header_nav li {
+        animation-name: delete;
+        animation-duration: 1s;
+        display: none;
+    }
+
+    .header_lent {
+        position: relative;
+        margin-top: -30px;
+        display: block;
+        animation: menu;
+        animation-duration: 1s;
+    }
+
+    @keyframes menu {
+        from {
+            opacity: 0;
+            left: 250px;
+        }
+
+        to {
+            opacity: 1;
+            left: 0;
+        }
+    }
+
+    @keyframes delete {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+            display: none;
+        }
+    }
+}
+
+@media (min-width:1000px) {
+    .header_nav li {
+        animation-name: menu;
+        animation-duration: 0.5s;
+        position: relative;
+    }
+
+    .header_lent {
+        display: none;
+    }
+
+    @keyframes menu {
+        from {
+            opacity: 0;
+            top: -50px;
+        }
+
+        to {
+            opacity: 1;
+            top: 0;
+        }
+    }
+
+}
